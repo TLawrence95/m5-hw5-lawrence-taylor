@@ -1,0 +1,147 @@
+/*==========================
+
+Universal Styling
+
+==========================*/
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background: url(../images/full-bloom.png) fixed;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+ }
+
+
+ @font-face {
+     font-family: breeserif;
+     src: url(../fonts/breeserif-regular.ttf);
+ }
+
+ @font-face {
+     font-family: raleway;
+     src: url(../fonts/raleway-light.ttf);
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+    margin: 20px 0;
+    font-family: breeserif;
+    color: teal;
+ }
+
+ p {
+     line-height: 200%;
+     margin: 20px 0;
+     font-family: raleway;
+ }
+
+ /*==========================
+
+Header Styling
+
+==========================*/
+
+header {
+    background: white;
+    padding: 20px 20px 10px 20px;
+    border-bottom: 3px solid grey;
+}
+
+header > a {
+    color: white;
+    text-decoration: none;
+    background: teal;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-family: breeserif;
+}
+
+header > nav {
+    float: right;
+}
+
+nav > a {
+    color: teal;
+    text-decoration: none;
+    font-size: 21px;
+    font-family: breeserif;
+    margin: 0 5px;
+    /*border-right: 1px solid grey;*/
+}
+
+/*==========================
+
+About Styling
+
+==========================*/
+
+main.container {
+    padding: 10px 30px;
+    width: 1000px;
+}
+
+section > img {
+    float: left;
+    margin: 10px 20px 0 0;
+    box-shadow: 5px 5px 10px grey;
+}
+
+section {
+    float: left;
+    background: white;
+    padding: 20px 45px;
+    width: 600px;
+}
+
+aside {
+    float: right;
+    text-align: center;
+    background: white;
+    padding: 20px 45px;
+    width: 200px;
+}
+
+h1, h2 {
+    padding: 5px 0;
+    border-bottom: 2px solid grey;
+}
+
+aside > a {
+    margin: 0 5px;
+}
+
+/*aside a img {
+    margin: 0;
+    box-shadow: 5px 5px 10px grey;
+}*/
+
+/*==========================
+
+Footer Styling
+
+==========================*/
+main::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+footer {
+    background: teal;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 5px solid grey;
+}
+
+footer p {
+    padding: 0;
+    margin: 0;
+}
