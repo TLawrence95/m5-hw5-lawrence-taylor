@@ -54,7 +54,7 @@ header {
     border-bottom: 3px solid grey;
 }
 
-header > a {
+header > div > a {
     color: white;
     text-decoration: none;
     background: teal;
@@ -63,7 +63,7 @@ header > a {
     font-family: breeserif;
 }
 
-header > nav {
+header > div > nav {
     float: right;
 }
 
@@ -117,10 +117,9 @@ aside > a {
     margin: 0 5px;
 }
 
-/*aside a img {
-    margin: 0;
+aside a img {
     box-shadow: 5px 5px 10px grey;
-}*/
+}
 
 /*==========================
 
